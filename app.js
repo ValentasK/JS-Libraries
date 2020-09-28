@@ -1,14 +1,7 @@
 
 
+var mydiv = new DOMmanipulation(".kubas");
+mydiv.scale(1).red().changeColor();
 
-
-
-
-
-
-
-
-
-var a = new DOMmanipulation(".kubas");
-a.scale(2).red().changeColor();
-
+var dropDown = new DropDownList(".dropDown",".DDButton");
+dropDown.initialise();
